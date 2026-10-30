@@ -1,0 +1,8 @@
+dependencies {
+    // ... تبعياتك الأخرى
+    implementation("io.github.ljcamargo:llamacpp-kotlin:0.4.0") // محرك تشغيل النموذج
+    implementation("io.github.nadeemiqbal:liquid-glass:0.2.3")   // تأثير الزجاج السائل
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")         // لتحميل النموذج
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation("androidx.compose.material3:material3:1.3.1")
+}
